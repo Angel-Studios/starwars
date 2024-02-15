@@ -30,12 +30,12 @@ Recommended to develop on Linux, or Mac based systems.
 
 ## Development Commands
 
-`npm run start:build`        : builds the application for production
-`npm run start:dev`          : starts a dev server, that will reactively restart the server as code is changed
-`npm run start:prod`         : starts the prod server, requires that `npm run build` is executed first
-`npm run codegen`            : Generates graphQL types from `./src/schema.graphql`. Run this immediately after changing `./src/schema.graphql`
-`npm run db:studio`          : opens a GUI for running CRUD operations on the database
-`npm run db:generate-client` : generates a new ORM client when `./prisma/schema.prisma changes`
+- `npm run start:build`        : builds the application for production
+- `npm run start:dev`          : starts a dev server, that will reactively restart the server as code is changed
+- `npm run start:prod`         : starts the prod server, requires that `npm run build` is executed first
+- `npm run codegen`            : Generates graphQL types from `./src/schema.graphql`. Run this immediately after changing `./src/schema.graphql`
+- `npm run db:studio`          : opens a GUI for running CRUD operations on the database
+- `npm run db:generate-client` : generates a new ORM client when `./prisma/schema.prisma changes`
 
 ## Instructions
 
