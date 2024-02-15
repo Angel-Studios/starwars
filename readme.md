@@ -4,11 +4,11 @@
 ## Setup
 
 ### Tech Stack
-Language  : Typescript  : https://www.typescriptlang.org
-Runtime   : NodeJS      : https://nodejs.org/en
-GraphQL   : Apollo      : https://www.apollographql.com/docs/apollo-server/
-ORM       : Prisma      : https://www.prisma.io/docs/orm
-DB        : Sqlite      : Also supports MySql, Postgres and MS Sql Server
+- Language  : Typescript  : https://www.typescriptlang.org
+- Runtime   : NodeJS      : https://nodejs.org/en
+- GraphQL   : Apollo      : https://www.apollographql.com/docs/apollo-server/
+- ORM       : Prisma      : https://www.prisma.io/docs/orm
+- DB        : Sqlite      : Also supports MySql, Postgres and MS Sql Server
 
 ## Setup
 
