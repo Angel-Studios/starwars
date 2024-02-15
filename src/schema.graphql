@@ -1,0 +1,43 @@
+type ApiRoot {
+  films: [Film]
+  people: [Person]
+  planets: [Planet]
+  species: [Species]
+  startships: [Starship]
+  vehicles: [Vehicle]
+}
+
+type Film {
+  field1: String
+}
+
+type Person {
+  field1: String
+}
+
+type Planet {
+  field1: String
+}
+
+type Species {
+  field1: String
+}
+
+type Starship {
+  field1: String
+}
+
+type Vehicle {
+  field1: String
+}
+
+type Query {
+  root: ApiRoot
+  # define queries for any two API model types (Film, Person, Planet, etc)
+}
+
+type Mutation {
+  test: String
+  # Define a mutation that will add a new field and value to one of the API model types, and return 
+  # addNewAttributeOn(attribute: ???): ???
+}
