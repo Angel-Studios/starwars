@@ -12,7 +12,7 @@
 
 ## Setup
 
-- Recommended to develop on Linux, or Mac based systems.
+Recommended to develop on Linux, or Mac based systems.
 
 - Install NodeJS
 
