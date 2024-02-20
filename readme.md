@@ -37,6 +37,10 @@ Recommended to develop on Linux, or Mac based systems.
 - `npm run db:studio`          : opens a GUI for running CRUD operations on the database
 - `npm run db:generate-client` : generates a new ORM client when `./prisma/schema.prisma changes`
 
+## GraphQL Explorer
+
+Execute `npm run start:dev`, then navigate in a browser to localhost:4000 to interact with the graph defined in this application
+
 ## Instructions
 
 1. Using your preferred tool (git cli, Github Desktop, etc), fork this repository, create a branch in your fork and open a pull request back to this repository
